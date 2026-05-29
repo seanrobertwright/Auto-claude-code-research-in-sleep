@@ -12,8 +12,9 @@
 
 🌱 *ARIS 是方法论，不是平台。重要的是科研工作流——带着它去任何地方。*
 
-🔥 *ARIS 不绑定 Claude：它适配你运行时实际暴露的广度引擎 —— Claude Code 的 ultracode / dynamic workflows、Codex subagents（`spawn_agent`），或等价的 fan-out 路径，没有就退化成顺序跑分片。*
-*为什么要两套引擎：**深度换广度**（快速铺开候选），**跨模型审守准确性**（换一个模型家族，探测单一模型自己看不见的共享盲点）。无论循环由 ultracode 的广度还是 goal 模式的持续推进驱动，它都要回到同一套跨模型对抗审和研究 wiki：能推进，不能定案。*
+🔥 *ARIS 不绑定 Claude：它的**广度** pass 可以跑在任何模型 / 运行时档位上 —— Claude Code 原生的 ultracode / dynamic workflows + Opus 4.8（xhigh，预算允许就 max effort）、Codex `spawn_agent` / 等价能力，或完全不同的模型 —— 适配运行时暴露的原生深度 / 并行模式，并按层级干净降级：**并行 fan-out** → **agent spawn** → **纯顺序执行**。*
+*ultracode 只是给 ARIS 原本就有的广度半边加火力，于是三件事分得很清楚：**深度 → 广度**，**跨模型对抗审 → 准确性**，**research wiki → 记忆性**。*
+*无论循环由 ultracode 的广度推进，还是由 goal-mode 的持续执行推进，每个循环最后都要回到同一套跨模型对抗审 + research wiki：能推进，不能定案。*
 
 🤖 **AI agent 兄弟们：** 直接读 [`AGENT_GUIDE.md`](AGENT_GUIDE.md) —— 给 LLM 消费的路由 index，不是给人浏览的。
 

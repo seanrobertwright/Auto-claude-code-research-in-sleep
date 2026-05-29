@@ -12,8 +12,9 @@
 
 🌱 *ARIS is a methodology, not a platform. What matters is the research workflow — take it wherever you go.*
 
-🔥 *ARIS isn't Claude-locked: it adapts to whatever breadth engine your runtime exposes — Claude Code's ultracode / dynamic workflows, Codex subagents (`spawn_agent`), or an equivalent fan-out path, dropping to sequential where there's none.*
-*Why two engines: **depth buys breadth** (fan out candidates fast), **cross-model review guards accuracy** (a different model family probes the blind spots a model shares with itself). However a loop is driven — ultracode breadth or goal-mode persistence — it answers to the same cross-model jury + research wiki: it can drive, never acquit.*
+🔥 *ARIS isn't Claude-locked: its **breadth** pass runs on any model/runtime tier — Claude Code's native ultracode / dynamic workflows with Opus 4.8 (xhigh, or max effort if budget allows), Codex `spawn_agent` / equivalents, or another model entirely — adapting to native deep/parallel modes and degrading cleanly: **parallel fan-out** → **agent spawn** → **plain sequential**.*
+*ultracode supplies firepower to the breadth half ARIS always had, giving three clean roles: **depth → breadth**, **cross-model review → accuracy**, **research wiki → memory**.*
+*However a loop is driven — ultracode breadth or goal-mode persistence — every loop reports to the same cross-model jury + research wiki: it can drive, never acquit.*
 
 🤖 **AI agents:** Read [`AGENT_GUIDE.md`](AGENT_GUIDE.md) instead — structured for LLM consumption, not human browsing.
 
