@@ -1319,6 +1319,9 @@ cp -r skills/experiment-bridge ~/.claude/skills/
 
 ### 🌙 过夜自动运行的免确认配置（可选）
 
+<details>
+<summary>过夜跑免点权限弹窗 —— 往 <code>.claude/settings.local.json</code> 加一段</summary>
+
 在 `.claude/settings.local.json` 中添加：
 
 ```json
@@ -1334,6 +1337,8 @@ cp -r skills/experiment-bridge ~/.claude/skills/
   }
 }
 ```
+
+</details>
 
 <a id="gpu-server-setup"></a>
 

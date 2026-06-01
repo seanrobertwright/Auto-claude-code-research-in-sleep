@@ -1419,7 +1419,8 @@ category, and requirements per skill) lives in
 **[`docs/SKILLS_CATALOG.md`](docs/SKILLS_CATALOG.md)** to keep this README
 scannable.
 
-**Start here for common entry points:**
+<details>
+<summary><b>Start here</b> — common entry points (use case → skill)</summary>
 
 | Use case | Start here |
 |---|---|
@@ -1434,6 +1435,8 @@ scannable.
 | Persistent research memory | [`/research-wiki`](skills/research-wiki/SKILL.md) |
 | Patent drafting (CN / US / EP) | [`/patent-pipeline`](skills/patent-pipeline/SKILL.md) |
 | ARIS optimizes itself | [`/meta-optimize`](skills/meta-optimize/SKILL.md) |
+
+</details>
 
 → **[Browse all 77 skills by category in the full catalog →](docs/SKILLS_CATALOG.md)**
 
@@ -1630,6 +1633,9 @@ bash tools/smart_update.sh --apply  # apply: adds new + updates safe ones
 
 ### 10.5 🌙 Auto-Allow for Overnight Runs (Optional)
 
+<details>
+<summary>Skip permission prompts on overnight runs — add a snippet to <code>.claude/settings.local.json</code></summary>
+
 To run the auto-review loop without clicking permission prompts, add to `.claude/settings.local.json`:
 
 ```json
@@ -1645,6 +1651,8 @@ To run the auto-review loop without clicking permission prompts, add to `.claude
   }
 }
 ```
+
+</details>
 
 <a id="gpu-server-setup"></a>
 
